@@ -1,0 +1,268 @@
+.f_navbar {
+	width: 100%;
+    height: 43px;
+    top: 0px;
+	background-color:#F7F7F7;
+}
+
+.f_nav {
+	position: relative;
+    margin: 0 auto;
+    width: 980px;
+    height: 100%;
+}
+
+ul {
+	list-style:none;
+}
+
+.sites {
+	float: left;
+    height: 100%;
+}
+
+.site {
+	float: left;
+	box-sizing: border-box;
+    width: 100px;
+    height: 42px;
+    border-left: 1px solid #cfcfcf;
+    cursor: pointer;
+	background: url(https://img.s3.chocolife.me/static/upload/images/css/plashka_head.png) no-repeat;
+}
+
+.chocolife {
+	background-position: -7px -50px;
+    background-color: white;
+	
+}
+
+.choco {
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.site>a {
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.chocomart {
+	width: 100px;
+    background-position: -127px -9px;
+	background-image: url(https://i.imgur.com/PpDkauK.gif);
+	background-position: 1px 0px; 
+	height: 42px;
+}
+
+.chocotravel {
+	background-position: -246px -9px;
+}
+
+.lensmark {
+	background-position: -362px -9px;
+}
+
+.chocofood {
+	background-position: -478px -9px;
+}
+
+.idoctor {
+	background-position: -595px -9px;
+}
+
+.user {
+	float: right;
+    height: 100%;
+}
+
+.input {
+	float: left;
+    height: 100%;
+    font-size: 13px;
+}
+
+.registration {
+	padding: 5px 8px 4px;
+    background-color: #FFC600;
+    white-space: nowrap;
+    max-width: 100px;
+    height: 30px;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    margin-right: 15px;
+    line-height: 19px;
+	-webkit-border-radius: 7px;
+}
+
+.login {
+	line-height: 38px;
+    margin-top: 0;
+}
+
+.basket {
+	float: left;
+    text-align: center;
+}
+
+.basket_icon {
+	margin-top: 9px;
+    margin-left: 10px;
+    padding-left: 25px;
+    background: transparent url(/static/img/frontend/header/header.png?v=6) no-repeat 0 -355px;
+    height: 16px;
+}
+
+.header {
+	margin: 0 auto;
+    padding-top: 53px;
+    width: 100%;
+}
+
+.s_header {
+	width: 980px;
+    margin: 0 auto;
+}
+.cities{
+	float: left;
+    width: 188px;
+}
+
+.city{
+	float: left;
+    margin-left: 0;
+    z-index: 1033;
+    text-align: center;
+	margin-top: 2px;
+}
+chosen_city{
+	font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.help, .protect, .feedback{
+	float: left;
+    width: 355px;
+	color:black;
+}
+.icon{
+	float: left;
+    width: 30px;
+    height: 34px;
+}
+.bulb, .shield, .envelope{
+	margin-left: 165px;
+	color: black;
+}
+.help_text{
+	float: left;
+    margin: -24px 0 0 195px;
+    font-size: 13px;
+}
+.protect{
+	margin-left: -90px;
+}
+.protect_text{
+	float: left;
+    margin: -24px 0 0 200px;
+    font-size: 13px;
+}
+.feedback{
+	margin-left: -57px;
+}
+.feedback_text{
+	float: left;
+    margin: -24px 0 0 210px;
+    font-size: 13px;
+}
+.logo{
+	min-width: 200px;
+    max-width: 389px;
+	float: left;
+    margin-top: 4px;
+}
+.choco_logo{
+	width: 178px;
+    height: 52px;
+    margin-left: -2px;
+}
+.choco_img{
+	width: 180px;
+    height: 40px;
+	margin-top: 15px;
+}
+.logo_text{
+    padding-top: 0px;
+    margin: -35px 18px 0 195px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.search{
+	float: left;
+    margin-top: 12px;
+    width: 641px;
+}
+.search_box{
+	float: left;
+    margin-top: 2px;
+    height: 46px;
+    width: 480px;
+    border-radius: 25px;
+}
+.search_field{
+	margin-top:-50px;
+    margin-left: 370px;
+    width: 495px;
+    height: 46px;
+    float: left;
+}
+input[type="search"].input {
+    float: left;
+	width:400px;
+    height: 41px;
+    font-size: 14px;
+    padding-left: 14px;
+    margin-top: 1px;
+    border: 1px solid gray;
+}
+.search_button{
+	margin-top:1px;
+	height:41px;
+	width:60px;
+	background-color:#FFC600;
+	
+}
+.categories{
+	width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    height: 46px;
+	margin-top: 120px;
+}
+.category{
+	width: 980px;
+    margin: 0 auto;
+}
+.navigators{
+	display: flex;
+    justify-content: space-between;
+    width: 980px;
+    height: 45px;
+	padding-left:10px;
+}
+.navigator{
+	padding: 0 7px;
+	margin-top:-15px;
+}
+.each_category{
+	font-size: 14px;
+	color: black;
+}
+.hits{
+	color: red;
+}
